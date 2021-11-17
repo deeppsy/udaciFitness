@@ -16,7 +16,7 @@ class History extends React.Component {
     ready: false,
     opacity: new Animated.Value(0),
     height: 200,
-    width: 200,
+    width: 300,
   }
 
   componentDidMount(){
