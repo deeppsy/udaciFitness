@@ -7,7 +7,7 @@
       "**/*"
     ],
     "version": "1.0",
-    "icon": "./logo.jpg",
+    "icon": "./logo.png",
     "ios": {
         "bundleIdentifier": "org.GTG.fitness"
     },
