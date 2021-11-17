@@ -212,7 +212,7 @@ export const setLocalNotification = () => {
             content: createNotification(),
             trigger: {
               channelId: 'default',
-              seconds: 30,
+              seconds: 86400,
               repeats: true,
             }
           }).catch(err => {console.warn('scheduleNotificationAsync',err);})
