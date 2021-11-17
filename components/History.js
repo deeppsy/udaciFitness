@@ -84,7 +84,7 @@ class History extends React.Component {
         <View style = {{flex:1, justifyContent:'center', alignItems:'center'}}>
           <Animated.Image
             style = {{width, height, opacity}}
-            source = {require('../logo.png')}
+            source = {require('../logo.jpg')}
             />
         </View>
       );
