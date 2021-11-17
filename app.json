@@ -5,7 +5,32 @@
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "version": "1.0",
+    "icon": "./logo.png",
+    "ios": {
+        "bundleIdentifier": "org.GTG.fitness"
+    },
+    "android": {
+        "package" : "org.GTG.fitness"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./local/path/to/myNotificationIcon.png",
+          "color": "#ffffff",
+          "sounds": ["./local/path/to/mySound.wav", "./local/path/to/myOtherSound.wav"],
+          "mode": "production"
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
+    ],
   },
   "name": "fitness"
 }
