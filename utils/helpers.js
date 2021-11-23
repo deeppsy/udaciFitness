@@ -171,7 +171,7 @@ export const getDailyReminderValue = () => {
   }];
 }
 
-export const clearLocalNotificatio = () => {
+export const clearLocalNotification = () => {
   return AsyncStorage.removeItem(NOTIFICATION_KEY)
         .then(() => {
           Notifications.cancelAllScheduledNotificationsAsync()
